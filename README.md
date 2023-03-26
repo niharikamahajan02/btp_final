@@ -1,2 +1,2 @@
-# Reactjs-MaterialUI-Resturant-website
+# Reactjs-MaterialUI-Restaurant-website
 Complete Reactjs Resturant Website 
