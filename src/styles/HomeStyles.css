@@ -33,16 +33,22 @@
 
 .headerContainer button {
   background-color: #121619;
-  margin-top: 20px;
+ 
+ 
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  height: 50px;
-  width: 180px;
+  height: 58px;
+  width: 192px;
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  font-size: 17px;
+  
 }
+
+
+
+
 
 .headerContainer button:hover {
   background-color: #07090a;
@@ -81,6 +87,6 @@
   .headerContainer button {
     background-color: white;
     color: #121619;
-    margin-bottom: 30px;
+   
   }
 }

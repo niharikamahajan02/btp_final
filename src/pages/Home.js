@@ -3,6 +3,7 @@ import Layout from "./../components/Layout/Layout";
 import { Link } from "react-router-dom";
 import Banner from "../images/banner.jpeg";
 import "../styles/HomeStyles.css";
+import { ButtonGroup,Stack } from "@mui/material";
 
 const Home = () => {
   return (
@@ -12,7 +13,13 @@ const Home = () => {
           <h1>Food Website</h1>
           <p>Best Food In India</p>
           <Link to="/menu">
-            <button>ORDER NOW</button>
+            <Stack spacing={9} direction='row' marginTop='31px' >
+              
+            <button variant="contained" disableElevation>SEARCH YOUR MEAL BY INGREDIENTS</button>
+            <button variant="contained" disableElevation>UPLOAD FOOD IMAGE</button>
+            <button variant="contained" disableElevation>SEARCH CUISINE</button>
+           
+            </Stack>
           </Link>
         </div>
       </div>
