@@ -1,2 +1,2 @@
-# Reactjs-MaterialUI-Resturant-website
-Complete Reactjs Resturant Website 
+# Reactjs MaterialUI Recipe generation website
+Complete Reactjs Restaurant Website 
