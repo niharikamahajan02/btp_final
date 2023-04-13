@@ -3,9 +3,10 @@
 }
 
 body {
-  background: #2d2013;
+  background: teal;
   color: #fff;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
   margin: 0;
 }
 
