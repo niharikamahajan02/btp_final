@@ -1,0 +1,90 @@
+.recipe-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3px;
+    
+    border-radius: 10px;
+    transition: transform 58.2s ease-in-out;
+    padding: 17pc 3pc 2pc 3pc;
+    margin-bottom: 169px;
+  }
+
+  .recipe-container:hover {
+    transform: translateY(-5px);
+  }
+  .recipe-image{
+    width:10px;
+  }
+  
+  .recipe-input {
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .recipe-button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .recipe-button:hover {
+    background-color: #d45d00;
+  }
+  
+  .recipe-result {
+    margin-top: 24px;
+    max-width: 606px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 18px;
+    padding-left: 16px;
+    padding-bottom: 17px;
+    padding-top: 13px;
+  }
+  .ingre{
+    padding: 0px 13px 22px 40px;
+  }
+  .topi{
+    display: flex;
+  }
+  .recipe-result h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .recipe-result img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .recipe-result h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .recipe-result ul {
+    margin-bottom: 20px;
+    list-style:circle;
+    padding-left: 0;
+  }
+  
+  .recipe-result ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .recipe-instructions{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
