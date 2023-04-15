@@ -13,7 +13,6 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          
           <Route path="/about" element={<About />} />
           <Route path="/forrecipe" element={<ForRecipe />} />
           <Route path="/foringre" element={<ForIngre />} />

@@ -19,16 +19,20 @@ const Home = () => {
     <Layout>
       <div className="home" style={{ backgroundImage: `url(${Banner})` }}>
         <div className="headerContainer">
-          <h1>Food Website</h1>
-          <p>Best Food In India</p>
+          <br></br>
+          <br></br>
+          <br></br>
+          <h1>Receta</h1>
+          <p>Make magic with what you have</p>
         
             <Stack spacing={9} direction='row' marginTop='31px' >
          
            
 
-           <Button variant="outlined" disableElevation>UPLOAD FOOD IMAGE</Button>
-         <Link to="/forrecipe"> <Button variant="outlined" disableElevation>SEARCH RECIPE</Button></Link>
-         <Link to="/foringre"> <Button variant="outlined" disableElevation>SEARCH MEAL BY INGREDIENTS</Button></Link>
+           
+         <Link to="/forrecipe"> <Button variant="outlined" disableElevation>BY NAME</Button></Link>
+         <Button variant="outlined" disableElevation>BY FOOD IMAGE</Button>
+         <Link to="/foringre"> <Button variant="outlined" disableElevation>BY INGREDIENTS</Button></Link>
 
             </Stack>
          

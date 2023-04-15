@@ -2,6 +2,7 @@ import "../styles/Fromingre.css"
 import bgImag from '../images/ingre4.jpg';
 
 import React, { useState } from 'react';
+import Layout from "../components/Layout/Layout";
 
 function RecipeFinder() {
   const [query, setQuery] = useState('');
@@ -52,12 +53,15 @@ function RecipeFinder() {
   
 
   return (
+    <Layout>
     <div className="cont">
 <h1 className="head" color="white">ENTER INGREDIENTS</h1>
       <form onSubmit={handleSubmit}>
         <input type="text" value={query} onChange={handleChange} />
         <button type="submit">Search</button>
       </form>
+      
+    
       <div className="bgimg">
       {recipes.map(recipe => (
         <div key={recipe.id}>
@@ -87,6 +91,9 @@ function RecipeFinder() {
       ))}
     </div>
     </div>
+    
+  
+    </Layout>
   );
 }
 

@@ -1,10 +1,11 @@
 import React, { useState } from "react";
+import Banner from "../images/fromrecipe.jpg";
 import "../styles/Recipe.css";
-
+import Layout from "../components/Layout/Layout";
 
 
 const RecipeComponent = () => {
-  
+ 
   const [meal, setMeal] = useState("");
   const [recipe, setRecipe] = useState(null);
   const [showImage, setShowImage] = useState(true); // initial state for the image
@@ -19,8 +20,10 @@ const RecipeComponent = () => {
   };
 
   return (
+    <Layout>
+    <div className="cont" style={{ backgroundImage: `url(${Banner})` }}>
     <div className="recipe-container">
-     {/*} {showImage && <img src={bgImage}  alt="placeholder" className="recipe-image" />} {/* conditionally render the image }*/}
+     {/*} {showImage && <img src={bgImage}  alt="placeholder" className="recipe-image" />} {/ conditionally render the image }*/}
       <input
         type="text"
         placeholder="Enter a meal"
@@ -38,7 +41,6 @@ const RecipeComponent = () => {
           <h2>{recipe.strMeal}</h2>
           <div className="topi">
           <img src={recipe.strMealThumb} alt={recipe.strMeal} className="reci" />
-          
           <div className="ingre">
           <h3>Ingredients:</h3>
           
@@ -59,10 +61,17 @@ const RecipeComponent = () => {
           </div>
           </div>
           <h3>Instructions:</h3>
-          <p className="recipe-instructions">{recipe.strInstructions}</p>
-        </div>
+          <ol className="recipe-instructions">
+  {recipe.strInstructions.split('\n').map((step) => (
+    <li key={step}>{step.trim()}</li>
+  ))}
+</ol>
+       </div>
       )}
     </div>
+     </div>
+    
+    </Layout>
   );
 };
 

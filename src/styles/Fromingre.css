@@ -1,124 +1,91 @@
-.cont {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: -146px;
-    
-    border-radius: 10px;
-    transition: transform 58.2s ease-in-out;
-    padding: 17pc 3pc 2pc 3pc;
-    margin-bottom: 169px;
+.cont1 {
+  min-height: 100vh;
+  background-color: #fff2e6; /* light brown color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   }
-  body{
-    background-repeat: no-repeat;
-    background-size: cover;
+  
+  .ingre-cont {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  width: 80%; /* adjust the width to your liking */
+  max-width: 800px;
+  margin-top: 2rem;
   }
-  .head{
-    color:white;
+  
+  .head {
+  color: #6b4423; /* dark brown color */
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
   }
+  
   form {
-    display: flex;
-    margin: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
   }
   
-  input {
-    padding: 10px;
-    font-size: 18px;
-    border: 2px solid #ccc;
-    border-radius: 10px;
-    margin-right: 10px;
-    width: 400px;
+  input[type="text"] {
+  padding: 0.5rem;
+  border: 2px solid brown;
+  border-radius: 0.25rem;
+  margin-right: 1rem;
+  font-size: 1rem;
+  flex-grow: 1;
   }
   
- 
-  .btn{
-    margin-top:10px;
-  }
-  .bgimg{
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 18px;
-
-  }
-  body{
-    
-    background-image: url("../images/ingre4.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
- 
-  button {
-    padding: 10px;
-    font-size: 18px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-  }
-  
-  h2 {
-    font-size: 24px;
-    margin-top: 40px;
+  button[type="submit"] {
+  background-color: #6b4423;
+  color: #fff;
+  border: 2px solid brown;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
   }
   
   .limg {
-    margin-top: 20px;
-    width: 420px;
-    height: 273px;
-    border: black 2px solid;
-    border-radius: 10px;
-
+  display: block;
+  margin: 1rem auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
   }
   
-  button.view-recipe {
-    margin-top: 20px;
-    padding: 10px;
-    font-size: 18px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-  }
-  p{
-    color:aliceblue;
-    font-size: 19px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  .btn {
+  background-color: #6b4423;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
   }
   
-  .recipe-details {
-    margin-top: 20px;
-    border: 2px solid #ccc;
-    border-radius: 10px;
-    padding: 20px;
-    width: 600px;
+  h2 {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
   }
   
-  .recipe-details h3 {
-    margin-top: 0;
+  p {
+  margin: 1rem 0;
+  font-size: 1rem;
   }
   
-  .recipe-details p {
-    margin-bottom: 10px;
+  ul {
+  list-style: none;
+  margin: 1rem 0;
+  padding: 0;
   }
   
-  .recipe-details ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  ul li {
+  margin-bottom: 0.5rem;
   }
-  
-  .recipe-details li {
-    margin-bottom: 10px;
-  }
-  
-  @media (max-width: 600px) {
-    input {
-      width: 100%;
-    }
-  
-    .recipe-details {
-      width: 100%;
-    }
-  }
-  

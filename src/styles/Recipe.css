@@ -1,15 +1,25 @@
+.cont{
+  
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .recipe-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 3px;
-    
-    border-radius: 10px;
-    transition: transform 58.2s ease-in-out;
-    padding: 17pc 3pc 2pc 3pc;
-    margin-bottom: 169px;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  border-radius: 10px;
+  transition: transform 58.2s ease-in-out;
+  padding: 1pc 2pc 0pc 0pc;
+}
 
+  
   .recipe-container:hover {
     transform: translateY(-5px);
   }
@@ -18,8 +28,8 @@
   }
   
   .recipe-input {
-    width: 300px;
-    height: 40px;
+    width: 400px;
+    height: 35px;
     padding: 10px;
     font-size: 16px;
     border-radius: 5px;
@@ -28,7 +38,7 @@
   }
   
   .recipe-button {
-    background-color: #ff6600;
+    background-color: rgb(39, 38, 38);
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -39,39 +49,51 @@
   }
   
   .recipe-button:hover {
-    background-color: #d45d00;
+    background-color: black;
   }
   
   .recipe-result {
-    margin-top: 24px;
-    max-width: 606px;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 9px;
+    max-width: 639px;
+    width: 110%;
+    background-color: none;
     border-radius: 18px;
-    padding-left: 16px;
-    padding-bottom: 17px;
+    padding-left: 38px;
+    padding-bottom: 20px;
     padding-top: 13px;
+    text-align: center;
+    font-size: x-large;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-right: 24px;
   }
   .ingre{
     padding: 0px 13px 22px 40px;
+    text-align: left;
+    background-size: auto;
+    color:black;
   }
   .topi{
     display: flex;
   }
   .recipe-result h2 {
-    font-size: 24px;
+    font-size: xx-large;
     margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration-line:none;
+    text-align: center;
   }
   
   .recipe-result img {
-    width: 100%;
+    
     max-width: 400px;
     height: auto;
     margin-bottom: 20px;
+    display: block;
+    border-radius:15px;
   }
   
   .recipe-result h3 {
-    font-size: 20px;
+    font-size: x-large;
     margin-bottom: 10px;
   }
   
@@ -86,5 +108,9 @@
     margin-bottom: 5px;
   }
   .recipe-instructions{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:  sans-serif;
+    text-decoration-line:none;
+    text-align: left;
+    color: black;
+    font-size: large;
   }
