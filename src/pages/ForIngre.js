@@ -54,7 +54,8 @@ function RecipeFinder() {
 
   return (
     <Layout>
-    <div className="cont">
+    <div className="cont1" >
+  <div className="ingre-cont"> 
 <h1 className="head" color="white">ENTER INGREDIENTS</h1>
       <form onSubmit={handleSubmit}>
         <input type="text" value={query} onChange={handleChange} />
@@ -62,7 +63,6 @@ function RecipeFinder() {
       </form>
       
     
-      <div className="bgimg">
       {recipes.map(recipe => (
         <div key={recipe.id}>
           <h2>{recipe.title}</h2>
