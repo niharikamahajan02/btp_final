@@ -36,21 +36,13 @@ const Header = () => {
           </NavLink>
         </li>
         <li>
-<<<<<<< HEAD
           <NavLink to={"/about"}>About</NavLink>
-=======
-          <NavLink to={"/forrecipe"}>Menu</NavLink>
->>>>>>> c7f3f72cd05db9bbcf52c73bc37aa9c465b839ed
         </li>
         <li>
           <NavLink to={"/foringre"}>Contact</NavLink>
         </li>
         <li>
-<<<<<<< HEAD
           <NavLink to={"/contact"}>Sign in</NavLink>
-=======
-          <NavLink to={"/foringre"}>Contact</NavLink>
->>>>>>> c7f3f72cd05db9bbcf52c73bc37aa9c465b839ed
         </li>
       </ul>
     </Box>
@@ -86,25 +78,15 @@ const Header = () => {
                     Home
                   </NavLink>
                 </li>
-<<<<<<< HEAD
 
                 <li>          <NavLink to={"/about"}>About</NavLink>
-=======
-                <li>
-                  <NavLink to={"/forrecipe"}>Menu</NavLink>
->>>>>>> c7f3f72cd05db9bbcf52c73bc37aa9c465b839ed
                 </li>
                 <li>
                   <NavLink to={"/foringre"}>Contact</NavLink>
                 </li>
                 <li>
-<<<<<<< HEAD
           <NavLink to={"/contact"}>Sign in</NavLink>
         </li>
-=======
-                  <NavLink to={"/foringre"}>Contact</NavLink>
-                </li>
->>>>>>> c7f3f72cd05db9bbcf52c73bc37aa9c465b839ed
               </ul>
             </Box>
           </Toolbar>

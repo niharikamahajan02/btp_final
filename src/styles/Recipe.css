@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .cont{
   
   min-height: 80vh;
@@ -21,20 +20,6 @@
 }
 
   
-=======
-.recipe-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 3px;
-    
-    border-radius: 10px;
-    transition: transform 58.2s ease-in-out;
-    padding: 17pc 3pc 2pc 3pc;
-    margin-bottom: 169px;
-  }
-
->>>>>>> c7f3f72cd05db9bbcf52c73bc37aa9c465b839ed
   .recipe-container:hover {
     transform: translateY(-5px);
   }
@@ -43,13 +28,8 @@
   }
   
   .recipe-input {
-<<<<<<< HEAD
     width: 400px;
     height: 35px;
-=======
-    width: 300px;
-    height: 40px;
->>>>>>> c7f3f72cd05db9bbcf52c73bc37aa9c465b839ed
     padding: 10px;
     font-size: 16px;
     border-radius: 5px;
@@ -58,11 +38,7 @@
   }
   
   .recipe-button {
-<<<<<<< HEAD
     background-color: rgb(39, 38, 38);
-=======
-    background-color: #ff6600;
->>>>>>> c7f3f72cd05db9bbcf52c73bc37aa9c465b839ed
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -73,7 +49,6 @@
   }
   
   .recipe-button:hover {
-<<<<<<< HEAD
     background-color: black;
   }
   
@@ -96,29 +71,11 @@
     text-align: left;
     background-size: auto;
     color:black;
-=======
-    background-color: #d45d00;
-  }
-  
-  .recipe-result {
-    margin-top: 24px;
-    max-width: 606px;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 18px;
-    padding-left: 16px;
-    padding-bottom: 17px;
-    padding-top: 13px;
-  }
-  .ingre{
-    padding: 0px 13px 22px 40px;
->>>>>>> c7f3f72cd05db9bbcf52c73bc37aa9c465b839ed
   }
   .topi{
     display: flex;
   }
   .recipe-result h2 {
-<<<<<<< HEAD
     font-size: xx-large;
     margin-bottom: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -137,21 +94,6 @@
   
   .recipe-result h3 {
     font-size: x-large;
-=======
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .recipe-result img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    margin-bottom: 20px;
-  }
-  
-  .recipe-result h3 {
-    font-size: 20px;
->>>>>>> c7f3f72cd05db9bbcf52c73bc37aa9c465b839ed
     margin-bottom: 10px;
   }
   
@@ -166,13 +108,9 @@
     margin-bottom: 5px;
   }
   .recipe-instructions{
-<<<<<<< HEAD
     font-family:  sans-serif;
     text-decoration-line:none;
     text-align: left;
     color: black;
     font-size: large;
-=======
-    font-family:Georgia, 'Times New Roman', Times, serif;
->>>>>>> c7f3f72cd05db9bbcf52c73bc37aa9c465b839ed
   }
