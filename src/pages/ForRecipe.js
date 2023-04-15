@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+<<<<<<< HEAD
 import Banner from "../images/fromrecipe.jpg";
 import "../styles/Recipe.css";
 import Layout from "../components/Layout/Layout";
@@ -6,6 +7,14 @@ import Layout from "../components/Layout/Layout";
 
 const RecipeComponent = () => {
  
+=======
+import "../styles/Recipe.css";
+
+
+
+const RecipeComponent = () => {
+  
+>>>>>>> c7f3f72cd05db9bbcf52c73bc37aa9c465b839ed
   const [meal, setMeal] = useState("");
   const [recipe, setRecipe] = useState(null);
   const [showImage, setShowImage] = useState(true); // initial state for the image
@@ -20,10 +29,15 @@ const RecipeComponent = () => {
   };
 
   return (
+<<<<<<< HEAD
     <Layout>
     <div className="cont" style={{ backgroundImage: `url(${Banner})` }}>
     <div className="recipe-container">
      {/*} {showImage && <img src={bgImage}  alt="placeholder" className="recipe-image" />} {/ conditionally render the image }*/}
+=======
+    <div className="recipe-container">
+     {/*} {showImage && <img src={bgImage}  alt="placeholder" className="recipe-image" />} {/* conditionally render the image }*/}
+>>>>>>> c7f3f72cd05db9bbcf52c73bc37aa9c465b839ed
       <input
         type="text"
         placeholder="Enter a meal"
@@ -41,6 +55,10 @@ const RecipeComponent = () => {
           <h2>{recipe.strMeal}</h2>
           <div className="topi">
           <img src={recipe.strMealThumb} alt={recipe.strMeal} className="reci" />
+<<<<<<< HEAD
+=======
+          
+>>>>>>> c7f3f72cd05db9bbcf52c73bc37aa9c465b839ed
           <div className="ingre">
           <h3>Ingredients:</h3>
           
@@ -61,6 +79,7 @@ const RecipeComponent = () => {
           </div>
           </div>
           <h3>Instructions:</h3>
+<<<<<<< HEAD
           <ol className="recipe-instructions">
   {recipe.strInstructions.split('\n').map((step) => (
     <li key={step}>{step.trim()}</li>
@@ -76,3 +95,13 @@ const RecipeComponent = () => {
 };
 
 export default RecipeComponent;
+=======
+          <p className="recipe-instructions">{recipe.strInstructions}</p>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default RecipeComponent;
+>>>>>>> c7f3f72cd05db9bbcf52c73bc37aa9c465b839ed

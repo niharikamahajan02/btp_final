@@ -27,12 +27,20 @@ const Home = () => {
         
             <Stack spacing={9} direction='row' marginTop='31px' >
          
+<<<<<<< HEAD
            
 
            
          <Link to="/forrecipe"> <Button variant="outlined" disableElevation>BY NAME</Button></Link>
          <Button variant="outlined" disableElevation>BY FOOD IMAGE</Button>
          <Link to="/foringre"> <Button variant="outlined" disableElevation>BY INGREDIENTS</Button></Link>
+=======
+           
+
+           <Button variant="outlined" disableElevation>UPLOAD FOOD IMAGE</Button>
+         <Link to="/forrecipe"> <Button variant="outlined" disableElevation>SEARCH RECIPE</Button></Link>
+         <Link to="/foringre"> <Button variant="outlined" disableElevation>SEARCH MEAL BY INGREDIENTS</Button></Link>
+>>>>>>> c7f3f72cd05db9bbcf52c73bc37aa9c465b839ed
 
             </Stack>
          
