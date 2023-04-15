@@ -1,0 +1,116 @@
+.cont{
+  
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.recipe-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  border-radius: 10px;
+  transition: transform 58.2s ease-in-out;
+  padding: 1pc 2pc 0pc 0pc;
+}
+
+  
+  .recipe-container:hover {
+    transform: translateY(-5px);
+  }
+  .recipe-image{
+    width:10px;
+  }
+  
+  .recipe-input {
+    width: 400px;
+    height: 35px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .recipe-button {
+    background-color: rgb(39, 38, 38);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .recipe-button:hover {
+    background-color: black;
+  }
+  
+  .recipe-result {
+    margin-top: 9px;
+    max-width: 639px;
+    width: 110%;
+    background-color: none;
+    border-radius: 18px;
+    padding-left: 38px;
+    padding-bottom: 20px;
+    padding-top: 13px;
+    text-align: center;
+    font-size: x-large;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-right: 24px;
+  }
+  .ingre{
+    padding: 0px 13px 22px 40px;
+    text-align: left;
+    background-size: auto;
+    color:black;
+  }
+  .topi{
+    display: flex;
+  }
+  .recipe-result h2 {
+    font-size: xx-large;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration-line:none;
+    text-align: center;
+  }
+  
+  .recipe-result img {
+    
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+    display: block;
+    border-radius:15px;
+  }
+  
+  .recipe-result h3 {
+    font-size: x-large;
+    margin-bottom: 10px;
+  }
+  
+  .recipe-result ul {
+    margin-bottom: 20px;
+    list-style:circle;
+    padding-left: 0;
+  }
+  
+  .recipe-result ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .recipe-instructions{
+    font-family:  sans-serif;
+    text-decoration-line:none;
+    text-align: left;
+    color: black;
+    font-size: large;
+  }

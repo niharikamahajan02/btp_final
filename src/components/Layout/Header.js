@@ -39,7 +39,7 @@ const Header = () => {
           <NavLink to={"/about"}>About</NavLink>
         </li>
         <li>
-          <NavLink to={"/contact"}>Contact</NavLink>
+          <NavLink to={"/foringre"}>Contact</NavLink>
         </li>
         <li>
           <NavLink to={"/contact"}>Sign in</NavLink>
@@ -78,12 +78,15 @@ const Header = () => {
                     Home
                   </NavLink>
                 </li>
-                <li>
-                  <NavLink to={"/about"}>About</NavLink>
+
+                <li>          <NavLink to={"/about"}>About</NavLink>
                 </li>
                 <li>
-                  <NavLink to={"/contact"}>Contact</NavLink>
+                  <NavLink to={"/foringre"}>Contact</NavLink>
                 </li>
+                <li>
+          <NavLink to={"/contact"}>Sign in</NavLink>
+        </li>
               </ul>
             </Box>
           </Toolbar>

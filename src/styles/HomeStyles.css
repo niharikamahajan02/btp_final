@@ -61,6 +61,16 @@
   cursor: pointer;
   transition: 0.3s ease-in;
 }
+button {
+  padding: 10px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
 
 /* mobile view  */
 

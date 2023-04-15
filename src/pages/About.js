@@ -28,7 +28,7 @@ const About = () => {
       >
         <Typography variant="h4">Welcome To Deep Learning Based Recipe Generation Website</Typography>
         <p>
-        A dynamic website comprising deep leaning techniques.<br/>
+        A dynamic website comprising deep leaning techniques.<br/><br></br>
           Search options:<br/>
                &nbsp;&nbsp;&nbsp;1.Search by name<br/>
                  &nbsp;&nbsp;&nbsp;2.Search by ingredients<br/>
